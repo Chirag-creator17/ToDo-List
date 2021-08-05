@@ -34,4 +34,7 @@ app.post("/work", (req, res) => {
   res.redirect("/work");
 });
 
+app.listen(port,()=>{ 
+    console.log("server listening to port "+port);
+});
 
